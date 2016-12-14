@@ -19,11 +19,11 @@ public class InsertionSort{
   }
 
     public static void insertionSort(int[] data){
-	for (int i=data.length-1; i>=0; i--){
-	    int x=0;
-	    for (int a=i-1;a>=0;a--){
-		if (a==0){add(data,0,data[i];}
+	for (int i=1; i<data.length; i++){
+	    for (int m=i-1;m>-1;m--){
+		
 	    }
 	}
     }
 }
+
