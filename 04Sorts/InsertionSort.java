@@ -21,7 +21,7 @@ public class InsertionSort{
     public static void insertionSort(int[] data){
 	for (int i=1; i<data.length; i++){
 	    for (int m=i-1;m>-1;m--){
-		
+		if (data[i]<data[m]){}
 	    }
 	}
     }
