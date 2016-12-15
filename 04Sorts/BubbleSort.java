@@ -24,12 +24,4 @@ public class BubbleSort{
 	    }
 	}
     }
-
-    public static void main(String[] args){
-	int[] marg={1,2,3,4,5,0};
-	bubbleSort(marg);
-	for (int i=0;i<marg.length;i++){
-	    System.out.println(marg[i]);
-	}
-}
 }
